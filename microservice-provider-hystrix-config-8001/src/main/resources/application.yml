@@ -1,0 +1,4 @@
+spring:
+  application:
+    name: microservice-provider-hystrix-config-8001
+

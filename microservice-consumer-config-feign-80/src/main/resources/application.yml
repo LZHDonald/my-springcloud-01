@@ -1,0 +1,19 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: microservice-consumer-config-feign
+
+feign:
+  hystrix:
+    #开启feign的hystrix支持,默认是false
+    enabled: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    #instance-id: feign-hystrix-9001.com
+    instance-id: consumer-config-feign-80.com
+    prefer-ip-address: true

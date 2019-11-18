@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-config-eureka-server-7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-config-eureka-server-7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-config-eureka-server-7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-config-hystrix-dashboard-9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-config-hystrix-turbine-8031" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-config-server-3344" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-config-feign-80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-config-feign-hystrix-turbine-80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-feign-80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-feign-hystrix-9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-eureka-client-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-eureka-client-8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-eureka-client-8003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-eureka-server-7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-eureka-server-7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-eureka-server-7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-hystrix-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-hystrix-8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-hystrix-8003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-hystrix-config-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-hystrix-config-8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-hystrix-config-8003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-zull-gateway-9527" charset="UTF-8" />
+  </component>
+</project>

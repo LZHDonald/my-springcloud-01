@@ -1,0 +1,46 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: microservicecloud-zuul-gateway
+
+eureka:
+  client:
+    service-url:
+#      defaultZone: http://eureka7002.com:7002/eureka,http://eureka7001.com:7001/eureka,http://eureka7003.com:7003/eureka
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: gateway-9527.com
+    prefer-ip-address: true
+
+zuul:
+  prefix: /lzh
+  # 需要忽视的服务(配置后将不能使用Application name访问)
+  #  ignored-services: microservicecloud-dept
+  ignored-services: "*"
+  routes:
+#    mydept.serviceId: microservicecloud-dept
+#    mydept.path: /mydept/**
+
+    mydept:
+      serviceId: microservicecloud-dept
+      path: /mydept/**
+#    ....可以配置多个
+    myfeign-hystrix:
+      serviceId: microservice-consumer-feign-hystrix
+      path: /feign/**
+    #使用config配置中心
+    myconsumerfeign:
+      serviceId: microservice-consumer-config-feign
+      path: /consumer/**
+    mydashboard:
+      serviceId: config-hystrix-dashboard
+      path: /dashboard/**
+
+info:
+  app.name: lzh-microcloud
+  company.name: www.lzh.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+

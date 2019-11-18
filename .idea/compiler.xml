@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-api" />
+        <module name="microservice-config-eureka-server-7001" />
+        <module name="microservice-config-eureka-server-7002" />
+        <module name="microservice-config-eureka-server-7003" />
+        <module name="microservice-config-hystrix-dashboard-9001" />
+        <module name="microservice-config-server-3344" />
+        <module name="microservice-consumer-80" />
+        <module name="microservice-consumer-config-feign-80" />
+        <module name="microservice-consumer-feign-80" />
+        <module name="microservice-consumer-feign-hystrix-9001" />
+        <module name="microservice-eureka-client-8001" />
+        <module name="microservice-eureka-client-8002" />
+        <module name="microservice-eureka-client-8003" />
+        <module name="microservice-eureka-server-7001" />
+        <module name="microservice-eureka-server-7002" />
+        <module name="microservice-eureka-server-7003" />
+        <module name="microservice-provider-hystrix-8001" />
+        <module name="microservice-provider-hystrix-8002" />
+        <module name="microservice-provider-hystrix-8003" />
+        <module name="microservice-provider-hystrix-config-8001" />
+        <module name="microservice-provider-hystrix-config-8002" />
+        <module name="microservice-provider-hystrix-config-8003" />
+        <module name="microservice-zull-gateway-9527" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice-client-eureka" target="1.8" />
+      <module name="microservice-config-hystrix-turbine-8031" target="1.8" />
+      <module name="microservice-consumer-config-feign-hystrix-turbine-80" target="1.8" />
+      <module name="microservice-eureka-server" target="1.8" />
+      <module name="microservice-server-eureka" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,4 @@
+spring:
+  application:
+    name: microservice-config-eureka-server-7001
+
